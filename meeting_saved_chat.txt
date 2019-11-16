@@ -1,0 +1,368 @@
+15:31:08	 From Joe Allen : https://forms.gle/wiuQUx7e5k1AFPJV7
+15:31:43	 From Jesus Hernandez : just had chem midterm :(
+15:31:52	 From Jesus Hernandez : not too well haha
+15:31:55	 From Joe Allen : https://forms.gle/wiuQUx7e5k1AFPJV7
+15:31:56	 From mattogrady : oh for doctor hill?
+15:32:47	 From Brandon Trieu : could someone repost the link?
+15:32:50	 From Joe Allen : https://forms.gle/wiuQUx7e5k1AFPJV7
+15:33:11	 From Joe Allen : https://forms.gle/wiuQUx7e5k1AFPJV7
+15:33:41	 From Joe Allen : https://forms.gle/wiuQUx7e5k1AFPJV7
+15:34:19	 From BrianTaylor : why’s it so quiet?
+15:34:25	 From Kobe Braga : lolll
+15:34:43	 From BrianTaylor : I took all my midterms already, and drank away my sorrows
+15:35:00	 From Royce : 12
+15:35:03	 From Davis Thuillier : 9
+15:35:03	 From Cassandra Castor : 14 hours
+15:35:05	 From Kobe Braga : 14
+15:35:05	 From Nayeli Madrigal : 13 hours last fnight
+15:35:07	 From Luis Herrera : 18 hours
+15:35:07	 From Jesus Hernandez : 9
+15:35:09	 From juanaarratia : 13
+15:35:10	 From Ashley Pham : 17 hours
+15:35:10	 From Jason Teteran : this quarter? 5 hours..
+15:35:14	 From Claire Wun : god I wish that were me
+15:35:14	 From Ryan Suarez : 16
+15:35:15	 From chris : probably 13
+15:35:15	 From Breanna Crandall : 10
+15:35:15	 From Laura Huerta-Del Real : maybe 10
+15:35:16	 From Merrick Slane : 15 I think
+15:35:18	 From BrianTaylor : I’m not sure but I slept 16 hours after this round of midterms
+15:35:20	 From Antonio Carbajal Rico : a loy
+15:35:44	 From Cassandra Castor : ive had a day where i slept 14 hours then kept taking naps throughout the day
+15:35:55	 From BrianTaylor : may i have the link please? I got caught up paying bills
+15:36:00	 From Joe Allen : https://forms.gle/wiuQUx7e5k1AFPJV7
+15:36:02	 From BrianTaylor : I agree with that by the way
+15:36:04	 From BrianTaylor : thank you
+15:36:52	 From Brandon Trieu : do the in person cs classes also have lab and lecture at the same date?
+15:38:05	 From David : may I get the googl eform
+15:38:14	 From mario martinez : did survey get sent im bit late
+15:38:35	 From Caitlin De La Torre : https://forms.gle/wiuQUx7e5k1AFPJV7
+15:38:40	 From David : thank you
+15:38:49	 From mario martinez : thank you
+15:39:00	 From BrianTaylor : theres no time for minecraft :(
+15:39:06	 From chris : i have no control
+15:39:10	 From chris : :/
+15:39:17	 From Gabriel Ruelas : Brooklyn 99
+15:39:48	 From Cassandra Castor : they offered cs12 online during the summer
+15:39:58	 From David : is cs13 not being offered next quarter?
+15:40:16	 From Breanna Crandall : That's me and yes!!!
+15:40:21	 From Breanna Crandall : :O
+15:42:43	 From Merrick Slane : I think they got rid of cs13 and merged it with cs12
+15:42:45	 From Nic Lowe : joe is there a way you can paste the link to my notes?
+15:42:46	 From BrianTaylor : lol
+15:42:54	 From Nic Lowe : it disappeared form my docs...
+15:43:01	 From Joe Allen : Let me look @Nic!
+15:43:06	 From Prayag : 9
+15:43:07	 From Cassandra Castor : my aunt one time used matches as candles…
+15:43:12	 From Prayag : bruh
+15:43:25	 From Nic Lowe : nvm I found it 
+15:43:29	 From Nic Lowe : thanks joe!
+15:43:42	 From Joe Allen : Great!
+15:43:42	 From Breanna Crandall : ;-; I'm finally famous guys.
+15:44:40	 From Laura Huerta-Del Real : usedCandles has to increment too
+15:44:40	 From Gabriel Ruelas : who are you again? (I'm sorry)
+15:44:41	 From Daniel Dorantes Valdez : candlesINBox-1
+15:44:42	 From Ryan Ly to Frank Vahid (Privately) : numCandles - usedCandles
+15:44:42	 From Kobe Braga : numCandlesInBox = numCandlesInBox - 5;
+15:44:43	 From Christopher : numCandlesInBox - 5
+15:44:46	 From sassine : Subtract 5
+15:44:48	 From Claire Wun : numCandlesInBox-5
+15:44:48	 From Laura Huerta-Del Real : decrement*
+15:45:27	 From mattogrady : Are we allowed to use the increment shortcuts like +=
+15:46:05	 From Joe Allen : For all that don't know what += is, we can talk about it in lab tonight!
+15:46:13	 From Nikita Horunzhy : so everything inside the { } is part of the while loop correct?
+15:46:13	 From Ryan Ly : 10
+15:46:16	 From Kobe Braga : 10
+15:46:17	 From Daniel Dorantes Valdez : 10
+15:46:18	 From Breanna Crandall : 10
+15:46:19	 From nuharahman : 10
+15:46:19	 From ethan : 10
+15:46:19	 From Jason Teteran : 10
+15:46:21	 From Joe Allen : Yes @Nikita
+15:46:21	 From Laura Huerta-Del Real : 10
+15:46:22	 From Nischal Gautam : 10
+15:46:23	 From Caitlin De La Torre : 10
+15:46:38	 From Joe Allen : It's called the loop body!
+15:47:01	 From Nikita Horunzhy : Makes sense
+15:47:03	 From Caitlin De La Torre : the loop body is what is in the { } ??
+15:47:14	 From Joe Allen : Yes @Caitlin
+15:47:15	 From Daniel Dorantes Valdez : Yeah
+15:47:23	 From Prayag : shouldn't it be <=?
+15:47:32	 From Ryan Ly to Frank Vahid (Privately) : Do you know why my text doesn’t turn blue and also when I press return , it doesn’t start a new line under the previous line but all the way towards the left
+15:47:52	 From Merrick Slane : if it's equal then they don't have any more though
+15:47:52	 From Claudia Duarte : im so late, was there a survey?
+15:48:01	 From Joe Allen : Let me grab it, one moment
+15:48:10	 From Claudia Duarte : thanks
+15:48:25	 From Joe Allen : https://forms.gle/e6uTs8btda1BvnnT6
+15:48:55	 From Prayag : how would someone handle the first birthday?
+15:49:13	 From Daniel Dorantes Valdez : 1
+15:49:14	 From Kobe Braga : 1?
+15:49:15	 From Laura Huerta-Del Real : 1
+15:49:15	 From Nic Lowe : 1
+15:49:17	 From Amy : numBdays?
+15:49:19	 From Merrick Slane : numbdays
+15:49:25	 From Alison G. : numBdays???
+15:49:37	 From Daniel Dorantes Valdez : N umBdays
+15:49:38	 From Martin Nguyen : numbdays
+15:49:44	 From Samuel : Was running late sorry was there a survey?
+15:49:46	 From Christopher : +=numBdays
+15:50:01	 From Joe Allen : @Samuel
+15:50:02	 From Jared Tan : https://forms.gle/e6uTs8btda1BvnnT6
+15:50:03	 From Joe Allen : https://forms.gle/e6uTs8btda1BvnnT6
+15:50:09	 From Samuel : Thank you
+15:52:58	 From Christopher : are we going to go over the difference between ++i and i++?
+15:54:11	 From Breanna Crandall : Pretty much the same! It's cool that it translated since I used Coral
+15:54:15	 From BrianTaylor : no questions
+15:54:17	 From Samuel : nope
+15:54:18	 From Cassandra Castor : makes sense
+15:54:42	 From ethan : I did this 
+15:54:47	 From Christopher : usedCandles can be considered running sum
+15:54:49	 From ethan : while (numCandles >= numBdays) {      numBdays += 1;      numCandles -= numBdays;   }
+15:54:53	 From Davis Thuillier : Create function for triangular numbers and increment by the term of that corresponding to the birthday.
+15:54:53	 From Prayag : since you don't get candles on the zeroth birthday, does this really work?
+15:55:13	 From BrianTaylor : yep
+15:55:36	 From Breanna Crandall : Aww thank you!
+15:55:38	 From Prayag : huh
+15:57:42	 From ethan : !=
+15:57:44	 From nuharahman : !=
+15:57:46	 From Daniel Dorantes Valdez : !=
+15:57:48	 From Laura Huerta-Del Real : !=
+15:57:48	 From Brandon Trieu : !n
+15:57:48	 From Amy : !=
+15:57:48	 From sassine : !=
+15:57:48	 From melenieperez : !=
+15:57:49	 From Caitlin De La Torre : !=
+15:57:49	 From Jason Teteran : !=
+15:57:49	 From Gabriel Ruelas : !=
+15:57:50	 From Martin Nguyen : !=
+15:57:51	 From Alison G. : !=
+15:57:51	 From Mario Salcedo : !=
+15:57:51	 From Kobe Braga : userChar != q
+15:57:51	 From Chanikan J : !=
+15:57:53	 From Nayeli Madrigal : !=
+15:57:54	 From Leila Shafi : !=
+15:57:54	 From Ziheng Zhao : !=
+15:57:54	 From Mario Salcedo : !=
+15:57:55	 From Prayag : !=
+15:58:05	 From Nischal Gautam : !=
+15:58:21	 From Christopher : cin
+15:58:28	 From Alison G. : cin >> userChar
+15:58:29	 From Kobe Braga : Cin << userChar
+15:58:31	 From Kobe Braga : >>*
+15:58:32	 From Amy : cin >> userChar
+15:58:32	 From Mario Salcedo : cin >> userCgar
+15:58:35	 From nuharahman : Cin << userchar
+15:58:39	 From Brandon Trieu : cin << userchar
+15:58:42	 From Gabriel Ruelas : cin >> userChar
+15:58:59	 From James Jiayang Zhao : cin>>userChar
+16:00:17	 From Ryan Ly : That’s cool
+16:00:54	 From ryan : That’s why its in beta xD
+16:01:02	 From Laura Huerta-Del Real : lolz
+16:02:26	 From rany : -Wuninitialized
+16:02:40	 From Raymond Zhao : Not dark mode 👀👀
+16:02:58	 From Ryan Ly : how did he get here
+16:03:16	 From Laura Huerta-Del Real : dark magic
+16:03:17	 From Amy : cool
+16:03:24	 From Christopher : epic dude
+16:03:24	 From Samuel : wow
+16:03:33	 From Joe Allen : Pretty neat eh?
+16:03:35	 From Mario Salcedo : rand()
+16:03:44	 From Claudia Duarte : %100
+16:03:44	 From Amy : %100
+16:03:46	 From Christopher : % 100
+16:03:47	 From Laura Huerta-Del Real : %100
+16:04:19	 From Alison G. : Wahhh. It reminds me of windows when I didn't shut down my laptop properly. 
+16:04:20	 From Cassandra Castor : woah
+16:04:29	 From Royce : that was surprising when 7 was the first number randomly generated
+16:04:42	 From Joe Allen : This is how I learned my CS10 :D
+16:05:03	 From Nayeli Madrigal : ^ woah
+16:05:14	 From Laura Huerta-Del Real : oh dear @joe
+16:05:43	 From Alison G. : no but can we do this also in windows?
+16:05:43	 From ryan : Does Mac come with a compiler?
+16:06:00	 From Christopher : can you do this on windows the exact same?
+16:06:13	 From Merrick Slane : windows I had to install g++
+16:06:27	 From Merrick Slane : and minGW
+16:06:33	 From Joe Allen : ^
+16:06:46	 From Kobe Braga : repl.it !!
+16:06:50	 From Christopher : ive been having troubles getting it all to work on my computer lol
+16:07:06	 From Laura Huerta-Del Real : repl.it is my worst nightmare
+16:07:37	 From Brandon Trieu : what does namespace std do?
+16:07:49	 From Cassandra Castor : there’s a show on netflix called “explained” and there’s an episode about coding, its interesting!
+16:07:54	 From Merrick Slane : includes the standard library 
+16:08:01	 From Merrick Slane : for printing and stuff
+16:08:14	 From Christopher : does rand() have parameters that you can use?
+16:09:29	 From Kobe Braga : yes
+16:09:30	 From Brandon Trieu : yes
+16:09:30	 From Mario Salcedo : yes
+16:09:31	 From Gabriel Ruelas : yes
+16:09:31	 From mattogrady : yes
+16:09:31	 From Prayag : y
+16:09:31	 From rany : probably
+16:09:33	 From mario martinez : yes
+16:09:33	 From Laura Huerta-Del Real : yes
+16:09:33	 From Leila Shafi : yes
+16:09:33	 From Cassandra Castor : yes
+16:09:33	 From Jason Teteran : yes
+16:09:34	 From Daniel Dorantes Valdez : yes
+16:09:34	 From Chanikan J : yes
+16:09:34	 From Alison G. : yes
+16:09:34	 From BrianTaylor : 1
+16:09:34	 From ryan : yes
+16:09:34	 From Justin Yan : yes
+16:09:35	 From melenieperez : yes
+16:09:35	 From Claire Wun : yes
+16:09:36	 From Ryan Ly : yes
+16:09:36	 From Amy : yes
+16:09:37	 From Christopher : yes
+16:09:37	 From juanaarratia : yes
+16:09:38	 From chris : yes
+16:09:39	 From Mario Salcedo : yes
+16:09:42	 From James Jiayang Zhao : yes
+16:11:36	 From Amy : if you say srand in the main function, do you not have to say it in functions that you define?
+16:12:14	 From Garland : can you srand(rand())
+16:12:29	 From Kobe Braga : I think she meant if you make your own functions, do you have to use stand in those?
+16:13:01	 From Amy : Sorry I meant if you called a function inside of main and then in that function's statement you use rand, will it still be the seeded random number in the main?
+16:13:42	 From Amy : ok thanks!
+16:14:23	 From Kobe Braga : Time
+16:14:26	 From sassine : time
+16:14:27	 From ryan : time(NULL)
+16:14:32	 From Laura Huerta-Del Real : whoa
+16:14:34	 From Gabriel Ruelas : time
+16:14:34	 From chris : 1970 jan 1
+16:14:40	 From Brandon Trieu : unix
+16:18:13	 From Alison G. : so srand actually do rand
+16:18:19	 From Christopher : so theres no real way to get something that's actualy random
+16:18:25	 From Ryan Ly to Frank Vahid (Privately) : What does time(null) do again
+16:18:28	 From Cassandra Castor : random numbers always use mod?
+16:18:34	 From Alison G. : ah okay! 
+16:19:09	 From Prayag : 2147...
+16:19:30	 From Cassandra Castor : i think 2 billion was the max
+16:21:57	 From Royce : 97?
+16:21:58	 From Christopher : ascii
+16:22:30	 From Joe Allen : @Royce I think you're right
+16:22:34	 From Nischal Gautam : is there operants for car?
+16:23:07	 From Joe Allen : @Nischal for car?
+16:24:44	 From Nischal Gautam : character
+16:24:53	 From Nischal Gautam : data type
+16:25:32	 From Nikita Horunzhy : whats ++i my laptop died 
+16:26:04	 From Laura Huerta-Del Real : wowza
+16:26:09	 From Jesus Hernandez : same as I=I+1
+16:26:15	 From Nikita Horunzhy : ty
+16:26:15	 From Gabriel Ruelas : witchcraft
+16:26:42	 From mario martinez : if you have more thatn 26 will it repeat back with am 'a' at 27
+16:27:51	 From Joe Allen : @mario if you have more, then it will output whatever character is after 'z' in the ascii table
+16:28:12	 From mario martinez : oh i see thankyou
+16:28:49	 From Jared Tan : boombaby
+16:28:50	 From Christopher : boom baby
+16:28:51	 From Gabriel Ruelas : witchcraft
+16:28:53	 From Laura Huerta-Del Real : boom chacalaka
+16:29:03	 From BrianTaylor : thats why you’re the captain
+16:29:06	 From mario martinez : boom goes the dynamite
+16:29:09	 From Laura Huerta-Del Real : aye aye captain
+16:29:20	 From Breanna Crandall : this is crazy sauce
+16:29:32	 From Claire Wun : dang it ucr wifi died for me
+16:29:59	 From Christopher : so i can use ascii values to brute force people's passwords?
+16:30:00	 From Nikita Horunzhy : whats char i keep forgetting haha
+16:30:06	 From BrianTaylor : The wifi sucks and the workers are on strike. Go UCR!
+16:30:13	 From Garland : 124
+16:30:15	 From juanaarratia : z
+16:30:21	 From Leila Shafi : z
+16:30:31	 From Gabriel Ruelas : 'z'
+16:33:53	 From Laura Huerta-Del Real : oh my thats huge
+16:34:00	 From Kobe Braga : Hugeeee listtt lmaooo
+16:34:07	 From Daniel Dorantes Valdez : wow
+16:34:19	 From Laura Huerta-Del Real : if i had a dollar for each domain name
+16:34:25	 From Peter : *creates email spam*
+16:34:38	 From Daniel Dorantes Valdez : Dam there goes all my ideas
+16:34:44	 From BrianTaylor : but why?
+16:34:49	 From Garland : coke.com
+16:35:00	 From Kobe Braga : LOLL
+16:35:04	 From Alison G. : lol
+16:35:11	 From Laura Huerta-Del Real : internet.com omg
+16:35:19	 From Cassandra Castor : WHAT
+16:35:21	 From BrianTaylor : smart guy
+16:35:21	 From Nayeli Madrigal : lucky guy
+16:35:23	 From Claire Wun : wrow
+16:35:31	 From Alison G. : how do they determine the price
+16:35:40	 From Cassandra Castor : i need to make domain names then
+16:35:43	 From Laura Huerta-Del Real : oh jeez
+16:35:59	 From BrianTaylor : ultimate dad joke
+16:35:59	 From Royce : LOL
+16:36:11	 From Jason Teteran : when students complain of grades... know where to send them
+16:36:18	 From Nic Lowe : holy
+16:36:19	 From Joe Allen : ^^
+16:36:20	 From Joe Allen : XD
+16:37:17	 From Christopher : what is the difference between ++i and i++
+16:37:19	 From Alison G. : strings?
+16:39:36	 From Laura Huerta-Del Real : not clean code
+16:43:25	 From Christopher : so then can you do x = i++;
+16:43:35	 From Christopher : ok
+16:43:37	 From sassine : Can you show when an error would occur
+16:43:40	 From sassine : ok
+16:43:48	 From Laura Huerta-Del Real : aye aye captain
+16:43:49	 From Christopher : 5
+16:43:50	 From Nikita Horunzhy : 5
+16:43:51	 From sassine : 5
+16:43:52	 From Garland : 5
+16:43:52	 From Amy : 5
+16:43:53	 From Laura Huerta-Del Real : 5
+16:43:54	 From Jesus Hernandez : 5
+16:43:54	 From Alison G. : 5
+16:43:54	 From Jason Teteran : 5
+16:43:55	 From Kobe Braga : 5
+16:43:55	 From Brandon Trieu : 5
+16:43:55	 From Daniel Dorantes Valdez : 5
+16:43:56	 From Nayeli Madrigal : 5
+16:43:56	 From Mario Salcedo : 5
+16:43:57	 From Leila Shafi : 5
+16:43:57	 From Martin Nguyen : 5
+16:43:58	 From Claire Wun : 5
+16:43:58	 From HassanSaeed : 5
+16:43:59	 From Gabriel Ruelas : 5
+16:44:01	 From Breanna Crandall : 5
+16:44:02	 From Davis Thuillier : 5
+16:44:03	 From Nikita Horunzhy : 7
+16:44:08	 From Christopher : lol
+16:44:31	 From ryan : That’s amazing
+16:44:37	 From Alison G. : LMAO
+16:44:38	 From Kobe Braga : That’s awesome lmaoo
+16:44:42	 From Claire Wun : bet
+16:44:59	 From Alison G. : oh my...
+16:45:02	 From sassine : no
+16:45:02	 From Mario Salcedo : WTF
+16:45:05	 From Laura Huerta-Del Real : ummmm
+16:45:21	 From Gabriel Ruelas : i see what they were going for
+16:45:30	 From Alison G. : it has a for loop lol
+16:45:34	 From David : i get it a = 256
+16:45:37	 From Daniel Dorantes Valdez : Need the coral flowchart
+16:45:44	 From Alison G. : lol
+16:46:11	 From Davis Thuillier : This is a C program right? Do all C programs run after being compiled with a C++ compiler?
+16:46:16	 From HassanSaeed : Dr Vahid is a redditor, theres DOZENS of us
+16:46:27	 From BrianTaylor : do you do that dr valid?
+16:46:31	 From nuharahman : LOL
+16:46:32	 From BrianTaylor : vahid*
+16:46:43	 From Davis Thuillier : I have listed a question a few lines up ^^
+16:46:45	 From Nikita Horunzhy : whats char again? 
+16:47:24	 From Davis Thuillier : The obfuscated probram is in C, but we are using C++. Using this compiler can we also compile C programs?
+16:48:21	 From Christopher : not
+16:48:21	 From Cassandra Castor : not
+16:48:22	 From nuharahman : Doesn’t
+16:48:22	 From Jason Teteran : not compile
+16:48:22	 From Davis Thuillier : Not
+16:48:23	 From melenieperez : not
+16:48:24	 From HassanSaeed : no
+16:48:25	 From Jesus Hernandez : not
+16:48:25	 From Amy : not
+16:48:25	 From Daniel Dorantes Valdez : no
+16:48:27	 From Gabriel Ruelas : nope
+16:48:27	 From chris : !=
+16:48:29	 From Peter : not, defined as char
+16:48:47	 From Joe Allen : c code is very similar to c++. There are some differences, but since we copied the code into a c++ compiler - then in this case it worked out
+16:49:58	 From Daniel Dorantes Valdez : ty
+16:49:59	 From Caitlin De La Torre : have a good night!
+16:50:00	 From Alison G. : thank you!
+16:50:01	 From BrianTaylor : peace out girl scout
+16:50:02	 From Christopher : goodbye!!
+16:50:02	 From Laura Huerta-Del Real : thank you!!! see y’all after dinner. EAT DINNER JOE DON’T FORGET!!!!
+16:50:03	 From Merrick Slane : dinner time
+16:50:04	 From Alison G. : See you later!
