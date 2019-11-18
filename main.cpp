@@ -10,31 +10,36 @@ bool IsStringUnique(vector<string> v, string s);					//Checks vector if string s
 string GetStudentNameFromChatLine(string chatLine);					//helper function to return studnet name from chatline
 vector<int>NumberOfChatsInEachMinute(string filename);				//Stores number of chats of each minute in corresponding vector index
 void AddOnlyIfUniqueString(vector<string>& v, string s);			//Adds string if not stored in vector 
-string TimeChatWasPosted(string chatLine);								//returns the time a chat was posted
+string TimeChatWasPosted(string chatLine);							//returns the time a chat was posted
 int MinuteChatWasPosted(string chatLine);							//returns the minute a chat was posted
 
 
-
-int main() {
+int main() 
+{
 
 	int numOfTotalChats = 0;
 	int numOfStudentsWhoTalked = 0;
-
+	vector<int> numOfChatsPerMinute;
+	
 	numOfTotalChats = NumberOfChats("meeting_saved_chat.txt");
 	cout << "The total chats for this session is: " << numOfTotalChats << endl;		//output of total messsages in file
 
 	numOfStudentsWhoTalked = NumberOfStudentsWhoTalked("meeting_saved_chat.txt");
 	cout << "The total number of students who talked is: " << numOfStudentsWhoTalked << endl;
+	
+	numOfChatsPerMinute = NumberOfChatsInEachMinute("meeting_saved_chat.txt");
+	for (int i = 0; i < numOfChatsPerMinute.size(); ++i) {
+		cout << "Number of chats in minute " << i << " :" << numOfChatsPerMinute.at(i) << endl;
+	}
 
-	string chat = "15:34:19	 From BrianTaylor : why’s it so quiet?";
-	TimeChatWasPosted(chat);
 
 	return 0;
 }
 
 
 
-int NumberOfChats(string filename) {
+int NumberOfChats(string filename) 
+{
 	int numOfChats = 0;
 	string chatLine;
 	ifstream chatLog(filename.c_str());
@@ -54,7 +59,8 @@ int NumberOfChats(string filename) {
 	return (numOfChats);
 }
 
-int NumberOfStudentsWhoTalked(string filename) {
+int NumberOfStudentsWhoTalked(string filename) 
+{
 
 	string chatLine;
 	string studentName;
@@ -77,21 +83,21 @@ int NumberOfStudentsWhoTalked(string filename) {
 	return students.size();
 }
 
-bool IsStringUnique(vector<string> v, string s) {				//helper function that searches a  vector of students who have talked
-																			//and returns true if student has talked
+bool IsStringUnique(vector<string> v, string s)				//check if string is held in vector or not
+{
 	for (int i = 0; i < v.size(); ++i) {
 
 		if (v.at(i) == s) {
 			return true;
 		}
-
+	
 	}
 
 	return false;
 }
 
-
-string GetStudentNameFromChatLine(string chatLine) {					//helper function to grab student name from chat line
+string GetStudentNameFromChatLine(string chatLine)			//Grab student name from chat line
+{														
 	string studentName;
 	int indexOfLastLetterOfName = 0;
 
@@ -101,62 +107,81 @@ string GetStudentNameFromChatLine(string chatLine) {					//helper function to gr
 	return(studentName);
 }
 
-vector<int> NumberOfChatsInEachMinute(string filename) {
+vector<int> NumberOfChatsInEachMinute(string filename) 
+{
 	int currentMinute = 0;
+	vector<int> numOfChatsInMinute(100);
+	string chatLine;
+	ifstream chatLog(filename.c_str());
+	unsigned int i = 0;
 
+	if (chatLog.fail()) {													//checking if file was opened correctly
+		cout << "failed to open file\n";
+	}
 
+	if (chatLog.is_open()) {
+		getline(chatLog, chatLine);
+		currentMinute = MinuteChatWasPosted(chatLine);						//Getting first minute and incrementing zeroth minute
+		++numOfChatsInMinute.at(i);						
 
+		while (getline(chatLog, chatLine)) {
+			
+			if (currentMinute == MinuteChatWasPosted(chatLine)) {			//checking current minute with new minute and incrementing accordingly
+				++numOfChatsInMinute.at(i);
+			}
+			else {
+				currentMinute = MinuteChatWasPosted(chatLine);
+				++i;
+				++numOfChatsInMinute.at(i);
+			}
+		
+		}
 
-	return vector<int>();
+	}
+
+	return numOfChatsInMinute;
 }
 
-void AddOnlyIfUniqueString(vector<string> & v, string s) {
-	if (v.size() == 0) {					//To always pushback first talking user
+void AddOnlyIfUniqueString(vector<string> & v, string s)			//Add string to vector if string is not held in vector
+{
+	if (v.size() == 0) {											//To always pushback first talking user
 		v.push_back(s);
 	}
 
-	if (!IsStringUnique(v, s)) {			//Using helper function to see if user has talked before
-		v.push_back(s);					//pushing name into vector of students who have talk
+	if (!IsStringUnique(v, s)) {									//Using helper function to see if user has talked before
+		v.push_back(s);												//pushing name into vector of students who have talk
 	}
 
 }
 
-string TimeChatWasPosted(string chatLine) {
+string TimeChatWasPosted(string chatLine)				//returns string time stamp of chat line
+{
 	string time;
 
 	time.append(chatLine, 0, 8);
-	cout << "this is the time: " << time;
 
 	return time;
 }
 
-int MinuteChatWasPosted(string timeStamp)
-{
-	return 0;
+int MinuteChatWasPosted(string chatLine)				//returns int minute chat was posted
+{	
+	string minute;
+
+	minute.append(chatLine, 4, 1);
+	
+	return stoi(minute);
+
 }
 
 
 
 
 
-/*
-vector<int>NumberOfMessagesPerMinute(string filename){
-	string currentTime;
-	string newTime;
-	vector<int>numOfMessagesInMin;
-	string userMessage;
-	ifstream(transcript (filename.c_str());
-
-	if(transcript.fail()){
-		cout<<"\nfailed to open file\n";
-		return -1;
-	}
-
-	if(transcript.is_open()){
-		while(getline(transcript,userMessage)){
 
 
-*/
+
+
+
 
 
 
