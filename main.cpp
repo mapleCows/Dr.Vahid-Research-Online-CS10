@@ -5,7 +5,7 @@
 using namespace std;
 
 int NumberOfMessages(string filename);								//Total number of messages in session
-int NumberOfDistinctContributors(string filename);						//Total number of distinct studnets who talked
+int NumberOfStudentsWhoTalked(string filename);						//Total number of distinct studnets who talked
 bool DidStudentTalk(vector<string> constributors, string user);					//helper function to see if specific student has talked
 string GetStudentNameFromChatLine(string chatLine);						//helper function to return studnet name from chatline
 vector<int>NumberOfMessagesPerMinute(string filename);					
@@ -13,13 +13,13 @@ vector<int>NumberOfMessagesPerMinute(string filename);
 int main(){
 
 	int numOfTotalMessages = 0;
-	int numOfDistinctContributors = 0;					
+	int numOfStudentsWhoTalked = 0;					
 
 	numOfTotalMessages = NumberOfMessages("meeting_saved_chat.txt");			//calling NumberOfMessagesfunction
 	cout<<"The total messages for this session is: "<<numOfTotalMessages<<endl;		//output of total messsages in file
 
-	numOfDistinctContributors = NumberOfDistinctContributors("meeting_saved_chat.txt");
-	cout<<"The total number of distinct contributors is: "<<numOfDistinctContributors<<endl;
+	numOfStudentsWhoTalked = NumberOfStudentsWhoTalked("meeting_saved_chat.txt");
+	cout<<"The total number of students who talked is: "<<numOfStudentsWhoTalked<<endl;
 
 	return 0;
 }
@@ -70,7 +70,7 @@ string GetStudentNameFromChatLine(string chatLine){					//helper function to gra
 }
 
 
-int NumberOfDistinctContributors(string filename){
+int NumberOfStudentsWhoTalked(string filename){
 
 	string chatLine;
 	string studentName;
