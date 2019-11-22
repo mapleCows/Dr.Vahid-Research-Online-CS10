@@ -12,26 +12,32 @@ vector<int>NumberOfChatsInEachMinute(string filename);				//Stores number of cha
 void AddOnlyIfUniqueString(vector<string>& v, string s);			//Adds string if not stored in vector 
 string TimeChatWasPosted(string chatLine);							//returns the time a chat was posted
 int MinuteChatWasPosted(string chatLine);							//returns the minute a chat was posted
-
-
+vector<string> NamesOfStudentsWhoTalked(string fileName);			//return a list of student names who talked
+void PrintStudentNames(vector<string> students, string outFile);	//prints students names to output file
 int main() 
 {
-
+	ofstream outfile;
+	outfile.open("Results.csv");
 	int numOfTotalChats = 0;
 	int numOfStudentsWhoTalked = 0;
 	vector<int> numOfChatsPerMinute;
-	
+	vector<string> students;
+
 	numOfTotalChats = NumberOfChats("meeting_saved_chat.txt");
-	cout << "The total chats for this session is: " << numOfTotalChats << endl;		//output of total messsages in file
+	outfile << "The total chats for this session is: " << numOfTotalChats << endl;		//output of total messsages in file
 
 	numOfStudentsWhoTalked = NumberOfStudentsWhoTalked("meeting_saved_chat.txt");
-	cout << "The total number of students who talked is: " << numOfStudentsWhoTalked << endl;
+	outfile << "The total number of students who talked is: " << numOfStudentsWhoTalked << endl;
+	
+	students = NamesOfStudentsWhoTalked("meeting_saved_chat.txt");
+	PrintStudentNames(students, "ListOfStudents.txt");
 	
 	numOfChatsPerMinute = NumberOfChatsInEachMinute("meeting_saved_chat.txt");
+	outfile << "Minute , Number of chats" << endl;
+	
 	for (int i = 0; i < numOfChatsPerMinute.size(); ++i) {
-		cout << "Number of chats in minute " << i << " :" << numOfChatsPerMinute.at(i) << endl;
+		outfile << i << "," << numOfChatsPerMinute.at(i) << endl;
 	}
-
 
 	return 0;
 }
@@ -172,6 +178,42 @@ int MinuteChatWasPosted(string chatLine)				//returns int minute chat was posted
 	return stoi(minute);
 
 }
+
+vector<string> NamesOfStudentsWhoTalked(string fileName)
+{
+	string chatLine;
+	string studentName;
+	vector<string> students;
+	ifstream chatLog(fileName.c_str());
+
+	if (chatLog.fail()) {								//checking if file was opened correctly
+		cout << "failed to open file\n";
+	}
+
+	if (chatLog.is_open()) {
+		while (getline(chatLog, chatLine)) {
+			studentName = GetStudentNameFromChatLine(chatLine);		//helper function call to grab username from chat line	
+			AddOnlyIfUniqueString(students, studentName);
+		}
+
+	}
+
+	return students;
+}
+
+void PrintStudentNames(vector<string> students, string outFile)
+{
+	ofstream outfile;
+	outfile.open(outFile);
+
+	outfile << "List of students who talked\n";
+
+	for (int i = 0; i < students.size(); ++i) {
+		outfile << students.at(i) << endl;
+	}
+
+}
+
 
 
 
