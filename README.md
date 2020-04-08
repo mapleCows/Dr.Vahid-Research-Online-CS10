@@ -44,8 +44,8 @@ Copy a file from HDFS to HDFS.
 
 | TEST| time (s)          |
 | ------------- |:-------------:|
-| Local Jar large file  | 20.4 |
-| Windows File copy paste      | 56.99      |
+| FileSystem API with AREAWATER.csv  | 20.4 |
+| Windows terminal copy with AREAWATER.csv      | 56.99      |
 | local to HDFS | 0.488 |
 | HDFS to local | 0.065      |
 | HDFS to HDFS | 0.389     |
