@@ -18,6 +18,9 @@
 (Q2) 56.997644 seconds
 
 (Q3) 56.997644 - 20.4  = 36.597644 second diffrence
+	Since we are using the hadoop FileSystem API we can expect much faster speeds than our local disk drive since a diffrent file system is being used. 
+On the normal windows copy and paste command from the cmd we are using the much slower windows file system to copy the data over. 
+When using the hadoop FileSystem API we are using the Hadoop file system servers to copy the data over and those are much faster than our local windows file system.
 
 
 (Q4) copied 134217728 bytes from 'test.txt' to 'test2.txt' in 488995700 nano seconds.
