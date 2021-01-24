@@ -7,7 +7,8 @@ Analyze student and teaching staff chat logs from online lectures. I wanted to f
 
 
 
-#Findings From the analyzis I foudn that majority of the chats are from students and the if the student was to chat once there is a high change they will chat at least 3 more times during the lecuture. More findings/data can be found in the excel and doc.
+##Findings
+From the analyzis I foudn that majority of the chats are from students and the if the student was to chat once there is a high change they will chat at least 3 more times during the lecuture. More findings/data can be found in the excel and doc.
 
 
 | Date| student-discussion-messages | students-participate-at-least-once | students-participate-at-least-3-times | messages-from-teachers|
